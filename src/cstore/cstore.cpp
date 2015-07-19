@@ -27,7 +27,7 @@
 
 // for debian's version comparison algorithm
 #define APT_COMPATIBILITY 986
-#include <apt-pkg/version.h>
+#include "debversion.h"
 
 #include <cli_cstore.h>
 #include <cstore/cstore.hpp>
